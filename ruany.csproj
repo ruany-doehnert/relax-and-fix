@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="optano.modeling" Version="3.4.0.489"/>
+    <PackageReference Include="optano.modeling.gurobi" Version="9.0.2.24"/>
+    <PackageReference Include="WebApiContrib.Formatting.JavaScriptSerializer" Version="0.9.4"/>
+    <PackageReference Include="System.Text.Json" Version="5.0.0-preview.8.20407.11"/>
+    <PackageReference Include="System.Text.Encodings.Web" Version="5.0.0-preview.8.20407.11"/>
+    <PackageReference Include="Newtonsoft.Json" Version="12.0.3"/>
+    <PackageReference Include="System.Web.Mvc.Extensions" Version="1.1.1.2"/>
+  </ItemGroup>
+</Project>
